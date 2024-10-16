@@ -1,5 +1,5 @@
 #Ankaaz-Panel
-Ankaaz-Panel, pentester ve güvenlik araştırmacıları için geliştirilen bir araç setidir. Bu araç, admin panel bulma, directory brute force ve PHP reverse shell oluşturma gibi temel web güvenlik testlerini otomatikleştirmek için kullanılır.
+##Ankaaz-Panel, pentester ve güvenlik araştırmacıları için geliştirilen bir araç setidir. Bu araç, admin panel bulma, directory brute force ve PHP reverse shell oluşturma gibi temel web güvenlik testlerini otomatikleştirmek için kullanılır.
 
 Özellikler:
 Admin Panel Finder: Web sitelerinde admin panellerini bulmanızı sağlar.
