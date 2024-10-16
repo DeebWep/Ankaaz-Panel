@@ -11,8 +11,8 @@ import sys
 import concurrent.futures
 
 import requests
-ADMIN_PANEL_PATHS_FILE = "admin-panel-directorylist.txt"
-REVERSE_SHELL_TEMPLATE_FILE = "reverse_shell_template.txt"
+ADMIN_PANEL_PATHS_FILE = "wordlists/admin-panel-directorylist.txt"
+REVERSE_SHELL_TEMPLATE_FILE = "wordlists/reverse_shell_template.txt"
 # ------------------------------------------------
 try:
     import requests as req
@@ -123,7 +123,7 @@ def directory_bruteforce():
         return
 
     # Wordlist qovluğunun yolu
-    wordlist = "directory-list-2.3-medium.txt"
+    wordlist = "wordlists/directory-list-2.3-medium.txt"
 
     # Wordlist faylını aç və hər sətirdə yolu oxu
     if os.path.exists(wordlist):
